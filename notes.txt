@@ -1,0 +1,68 @@
+steps1: What & How many texts in figma files?
+
+BON VOYAGE =>Poralta 400
+Desinations =>Poppins 700
+Hotels =>Poppins 700
+Flights =>Poppins 700 
+Bookings =>Poppins 700 
+Login =>Poppins 400 
+Sign up =>Poppins 400 //Poralta 400 & Poppins 400 & Poppins 700 
+
+
+
+Left side:
+Travel,Enjoy and  =>Poppins 700
+Best,desination  =>Poppins 700
+Find out more  =>Poppins 500 // Poppins 500 & Poppins 700
+
+ 
+So the totally font sizes : // Poralta 400  - Poppins 400 & Poppins 500 & Poppins 700
+
+*************************************************************************************************************************
+
+steps2: How many text color in figma files?
+
+Bon VOYAGE =>#000000
+Desinations =>#212832
+Hotels =>#212832
+Flights =>#212832
+Bookings =>#212832
+
+Login =>#EC682C 
+Sign up =>#EC682C
+
+Left side:
+Travel,Enjoy and  =>#4B40C5
+Best,desination  =>#FFFFFF
+Find out more  =>#4B40C5
+
+*************************************************************************************************************************
+
+step 3: How many icons and images in figma files? & Export the images and icons 
+
+Export the images & icons downloded.
+Create one file name "IMAGES" => and downloded images&icons inserted.
+
+*************************************************************************************************************************
+
+step4: exporting fonts to html documents
+
+Chrome->google search->google fonts->Google fonts Browse fonts website->search fonts->
+click the fonts and show the types(Eg:poppins REGULAR) - >இதேபோன்று அனைத்து font க்கும் தனித்தனியாக அதனுடைய font text style கொடுக்க வேண்டும்.
+பிறகு view selected families என்ற button ல் சென்று <.link> ஐ click செய்து copy செய்து கொள்ளவும்.
+அதனை index.htm ல் title tagக்கு கீழே கொடுக்கவும்.->
+
+*************************************************************************************************************************
+
+step5:html
+
+*************************************************************************************************************************
+
+step6:css
+
+*************************************************************************************************************************
+
+step7: cross checking
+
+
+*************************************************************************************************************************

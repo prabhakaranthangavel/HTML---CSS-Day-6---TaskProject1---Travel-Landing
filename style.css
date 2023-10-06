@@ -1,0 +1,1445 @@
+:root {
+    --black-color: #000000;
+    --lightblack-color: #212832;
+    --orange-color: #EC682C;
+    --blue-color: #4B40C5;
+    --white-color: #FFFFFF;
+}
+
+
+*,
+*::after *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.travel {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* **************************************************************** */
+
+/* header part start */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 1200px;
+    top: 20px;
+    left: 40px;
+    padding: 36px 0;
+    z-index: 100;
+    font-weight: bold;
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 0;
+    gap: 60px;
+    list-style: none;
+    margin: 0;
+
+}
+
+.bon {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    color: #000000;
+    gap: 60px;
+    text-align: justify;
+    font-weight: bold;
+    margin: 0;
+}
+
+.destination {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    gap: 60px;
+    color: #000000;
+    font-weight: bold;
+    left: 50px;
+}
+
+.hotel {
+    text-decoration: none;
+    gap: 60px;
+    color: #000000;
+    font-weight: bold;
+
+}
+
+.flight {
+    text-decoration: none;
+    gap: 60px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.book {
+    text-decoration: none;
+    gap: 60px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.btnlogin {
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    padding: 8px 20px;
+    justify-content: center;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #EC682C;
+    background: #EC682C;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btnsignup {
+    display: inline-block;
+    height: 20px;
+    padding: 8px 20px;
+    justify-content: center;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #EC682C;
+    background: #EC682C;
+    color: #fff;
+    text-decoration: none;
+}
+
+#text1 {
+    width: 1108px;
+    height: 90px;
+    font-size: 45px;
+    top: 380px;
+    left: 40px;
+    position: absolute;
+    color: #4B40C5;
+}
+
+#text2 {
+    width: 750px;
+    height: 50px;
+    font-size: 32px;
+    top: 460px;
+    left: 45px;
+    position: absolute;
+    color: #fff;
+
+}
+
+.btnfind {
+    width: 220px;
+    height: 50px;
+    font-size: 20px;
+    top: 560px;
+    left: 45px;
+    position: absolute;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #4B40C5;
+    background: #4B40C5;
+    color: #fff;
+    padding-top: 23px;
+    border-radius: 15px;
+}
+
+
+/* header part end  */
+
+/* **************************************************************** */
+
+/* section 1 tag start */
+
+.categorytext {
+    width: 270px;
+    height: 34px;
+    font-size: 32px;
+    top: 1004px;
+    left: 585px;
+    position: absolute;
+    color: #4B40C5;
+}
+
+.weoffertext {
+    width: 900px;
+    height: 90px;
+    font-size: 64px;
+    top: 1080px;
+    left: 310px;
+    position: absolute;
+    color: #14183E;
+}
+
+
+
+.dishimage {
+    width: 120px;
+    height: 100px;
+    top: 1350px;
+    left: 120px;
+    position: absolute;
+    border-radius: 24px, 7px, 13px, 7px;
+}
+
+.dishtext1 {
+    width: 270px;
+    height: 40px;
+    top: 1480px;
+    left: 75px;
+    position: absolute;
+    font-size: 25px;
+    font-weight: 500;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+}
+
+.dishtext2 {
+    width: 220px;
+    height: 140px;
+    top: 1520px;
+    left: 140px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.dishtext3 {
+    width: 220px;
+    height: 140px;
+    top: 1580px;
+    left: 90px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.dishtext4 {
+    width: 220px;
+    height: 140px;
+    top: 1620px;
+    left: 105px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+.flightimage {
+    width: 180px;
+    height: 333px;
+    top: 1210px;
+    left: 450px;
+    position: absolute;
+    border-radius: 24px, 7px, 13px, 7px;
+}
+
+.flighttext1 {
+    width: 180px;
+    height: 34px;
+    top: 1479px;
+    left: 460px;
+    position: absolute;
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000000;
+}
+
+.flighttext2 {
+    width: 220px;
+    height: 140px;
+    top: 1520px;
+    left: 435px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.flighttext3 {
+    width: 220px;
+    height: 140px;
+    top: 1580px;
+    left: 500px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+.micimage {
+    width: 75px;
+    height: 100px;
+    top: 1330px;
+    left: 850px;
+    position: absolute;
+}
+
+.mictext1 {
+    width: 200px;
+    height: 34px;
+    top: 1479px;
+    left: 800px;
+    position: absolute;
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000000;
+}
+
+.mictext2 {
+    width: 220px;
+    height: 100px;
+    top: 1520px;
+    left: 800px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.mictext3 {
+    width: 220px;
+    height: 100px;
+    top: 1580px;
+    left: 777px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.mictext4 {
+    width: 220px;
+    height: 100px;
+    top: 1620px;
+    left: 814px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+.settingsimage {
+    width: 90px;
+    height: 90px;
+    top: 1350px;
+    left: 1140px;
+    position: absolute;
+    border-radius: 24px, 7px, 13px, 7px;
+}
+
+.settingstext1 {
+    width: 200px;
+    height: 34px;
+    top: 1479px;
+    left: 1120px;
+    position: absolute;
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000000;
+}
+
+.settingstext2 {
+    width: 220px;
+    height: 100px;
+    top: 1520px;
+    left: 1150px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.settingstext3 {
+    width: 220px;
+    height: 100px;
+    top: 1580px;
+    left: 1080px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.settingstext4 {
+    width: 220px;
+    height: 100px;
+    top: 1620px;
+    left: 1110px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.blueangle1image {
+    height: 125px;
+    width: 125px;
+    top: 1250px;
+    left: 940px;
+    position: absolute;
+    border-radius: 40px, 0px, 13px, 0px;
+}
+
+.redangleimage {
+    height: 125px;
+    width: 125px;
+    top: 1620px;
+    left: 330px;
+    position: absolute;
+    border-radius: 40px, 0px, 13px, 0px;
+}
+
+/* section 1 tag end */
+
+/* **************************************************************** */
+
+/* section 2 tag start */
+
+.sellingtext {
+    width: 350px;
+    height: 48px;
+    top: 1800px;
+    left: 580px;
+    position: absolute;
+    color: #4B40C5;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.destinationtext {
+    width: 630px;
+    height: 90px;
+    top: 1850px;
+    left: 430px;
+    position: absolute;
+    color: #14183E;
+    font-size: 62px;
+    font-weight: 700;
+
+}
+
+.romeimage {
+    width: 450px;
+    height: 600px;
+    top: 2050px;
+    left: 20px;
+    position: absolute;
+    border-radius: 30px;
+}
+
+.rometext1 {
+    width: 150px;
+    height: 30px;
+    top: 2510px;
+    left: 55px;
+    position: absolute;
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.rometext2 {
+    width: 120px;
+    height: 30px;
+    top: 2510px;
+    left: 270px;
+    position: absolute;
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.rometext3 {
+    width: 120px;
+    height: 25px;
+    top: 2570px;
+    left: 90px;
+    position: absolute;
+    color: #5E6282;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.navigation1image {
+    width: 25px;
+    height: 25px;
+    top: 2570px;
+    left: 50px;
+    position: absolute;
+}
+
+
+
+.londonimage {
+    width: 450px;
+    height: 600px;
+    top: 2050px;
+    left: 480px;
+    position: absolute;
+    border-radius: 30px;
+}
+
+.londontext1 {
+    width: 150px;
+    height: 30px;
+    top: 2510px;
+    left: 575px;
+    position: absolute;
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.londontext2 {
+    width: 120px;
+    height: 30px;
+    top: 2510px;
+    left: 775px;
+    position: absolute;
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.londontext3 {
+    width: 120px;
+    height: 25px;
+    top: 2570px;
+    left: 610px;
+    position: absolute;
+    color: #5E6282;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.navigation2image {
+    width: 25px;
+    height: 25px;
+    top: 2570px;
+    left: 570px;
+    position: absolute;
+}
+
+
+
+.europeimage {
+    width: 450px;
+    height: 600px;
+    top: 2050px;
+    left: 900px;
+    position: absolute;
+    border-radius: 30px;
+}
+
+.europetext1 {
+    width: 150px;
+    height: 30px;
+    top: 2510px;
+    left: 1015px;
+    position: absolute;
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.europetext2 {
+    width: 150px;
+    height: 30px;
+    top: 2510px;
+    left: 1240px;
+    position: absolute;
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.europetext3 {
+    width: 120px;
+    height: 25px;
+    top: 2570px;
+    left: 1045px;
+    position: absolute;
+    color: #5E6282;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.navigation3image {
+    width: 25px;
+    height: 25px;
+    top: 2570px;
+    left: 1010px;
+    position: absolute;
+}
+
+/* section 2 tag end */
+
+/* **************************************************************** */
+
+/* section 3 tag start */
+
+.easytext {
+    width: 200px;
+    height: 30px;
+    top: 2800px;
+    left: 65px;
+    position: absolute;
+    color: #5E6282;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.booktext {
+    width: 700px;
+    height: 150px;
+    top: 2850px;
+    left: 55px;
+    position: absolute;
+    color: #14183E;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.yellowangleimage {
+    width: 59px;
+    height: 57px;
+    top: 3150px;
+    left: 55px;
+    position: absolute;
+    border-radius: 15px;
+}
+
+.yelloangletext1 {
+    width: 270px;
+    height: 25px;
+    top: 3140px;
+    left: 150px;
+    position: absolute;
+    color: #5E6282;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.yelloangletext2 {
+    width: 450px;
+    height: 50px;
+    top: 3170px;
+    left: 150px;
+    position: absolute;
+    color: #5E6282;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.orangeangleimage {
+    width: 60px;
+    height: 60px;
+    top: 3300px;
+    left: 55px;
+    position: absolute;
+    border-radius: 15px;
+}
+
+.orangeangletext1 {
+    width: 270px;
+    height: 25px;
+    top: 3290px;
+    left: 150px;
+    position: absolute;
+    color: #5E6282;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.orangeangletext2 {
+    width: 450px;
+    height: 50px;
+    top: 3320px;
+    left: 150px;
+    position: absolute;
+    color: #5E6282;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.blueangleimage {
+    width: 60px;
+    height: 60px;
+    top: 3450px;
+    left: 55px;
+    position: absolute;
+    border-radius: 15px;
+}
+
+.blueangletext1 {
+    width: 400px;
+    height: 25px;
+    top: 3440px;
+    left: 150px;
+    position: absolute;
+    color: #5E6282;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.blueangletext2 {
+    width: 450px;
+    height: 50px;
+    top: 3470px;
+    left: 150px;
+    position: absolute;
+    color: #5E6282;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.girlimage {
+    width: 400px;
+    height: 250px;
+    top: 2950px;
+    left: 810px;
+    position: absolute;
+    border-radius: 35px;
+}
+
+.girltext1 {
+    width: 220px;
+    height: 30px;
+    top: 3220px;
+    left: 810px;
+    position: absolute;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.datetext {
+    width: 105px;
+    height: 25px;
+    top: 3280px;
+    left: 800px;
+    position: absolute;
+    font-size: 20px;
+    color: #84829A;
+    font-weight: 500;
+}
+
+.authortext {
+    width: 160px;
+    height: 25px;
+    top: 3280px;
+    left: 930px;
+    position: absolute;
+    font-size: 20px;
+    color: #84829A;
+    font-weight: 500;
+}
+
+.towerimage {
+    width: 60px;
+    height: 60px;
+    top: 3300px;
+    left: 1080px;
+    position: absolute;
+}
+
+.girltext2 {
+    width: 110px;
+    height: 25px;
+    top: 3280px;
+    left: 1150px;
+    position: absolute;
+    font-size: 20px;
+    color: #84829A;
+    font-weight: 500;
+}
+
+.girltext3 {
+    width: 150px;
+    height: 25px;
+    top: 3310px;
+    left: 1150px;
+    position: absolute;
+    font-size: 20px;
+    color: #080809;
+    font-weight: 500;
+}
+
+.leafimage {
+    width: 45px;
+    height: 45px;
+    top: 3350px;
+    left: 805px;
+    position: absolute;
+}
+
+.mapimage {
+    width: 20px;
+    height: 20px;
+    top: 3363px;
+    left: 888px;
+    position: absolute;
+}
+
+.sendimage {
+    width: 25;
+    height: 25px;
+    top: 3363px;
+    left: 945px;
+    position: absolute;
+}
+
+.girltext4 {
+    width: 150px;
+    height: 20px;
+    top: 3349px;
+    left: 1147px;
+    position: absolute;
+    color: #8A79DF;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.girltext5 {
+    width: 150px;
+    height: 20px;
+    top: 3349px;
+    left: 1185px;
+    position: absolute;
+    color: #080809;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.lineimage {
+    width: 190px;
+    height: 6px;
+    top: 3405px;
+    left: 1095px;
+    position: absolute;
+    border-radius: 40px;
+}
+
+.buildingimage {
+    width: 20px;
+    height: 20px;
+    top: 3450px;
+    left: 800px;
+    position: absolute;
+}
+
+.heartimage {
+    width: 22px;
+    height: 22px;
+    top: 3450px;
+    left: 1170px;
+    position: absolute;
+}
+
+.girltext6 {
+    width: 150px;
+    height: 22px;
+    top: 3430px;
+    left: 835px;
+    position: absolute;
+    font-size: 17px;
+    font-weight: 500;
+    color: #84829A;
+}
+
+/* **************************************************************** */
+
+/* section 4 tag start */
+
+.whytext {
+    width: 350px;
+    height: 75px;
+    top: 3600px;
+    left: 555px;
+    position: absolute;
+    color: #7F2736;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.whytext1 {
+    width: 350px;
+    height: 75px;
+    top: 3600px;
+    left: 665px;
+    position: absolute;
+    color: #2C2D32;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.whytext2 {
+    width: 850px;
+    height: 125px;
+    top: 3750px;
+    left: 300px;
+    position: absolute;
+    color: #2C2D32;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.whytext3 {
+    width: 850px;
+    height: 125px;
+    top: 3800px;
+    left: 285px;
+    position: absolute;
+    color: #2C2D32;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.whytext4 {
+    width: 850px;
+    height: 125px;
+    top: 3850px;
+    left: 580px;
+    position: absolute;
+    color: #2C2D32;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.blueroundimage {
+    width: 130px;
+    height: 130px;
+    top: 4000px;
+    left: 210px;
+    position: absolute;
+}
+
+.bluestarimage {
+    width: 40px;
+    height: 40px;
+    top: 4035px;
+    left: 255px;
+    position: absolute;
+}
+
+.yellowroundimage {
+    width: 130px;
+    height: 130px;
+    top: 4000px;
+    left: 630px;
+    position: absolute;
+}
+
+.yellowworldimage {
+    width: 40px;
+    height: 40px;
+    top: 4035px;
+    left: 675px;
+    position: absolute;
+}
+
+.orangeroundimage {
+    width: 130px;
+    height: 130px;
+    top: 4000px;
+    left: 1100px;
+    position: absolute;
+}
+
+.orangehandimage {
+    width: 40px;
+    height: 40px;
+    top: 4035px;
+    left: 1145px;
+    position: absolute;
+}
+
+.blueroundtext {
+    width: 340px;
+    height: 40px;
+    top: 4150px;
+    left: 130px;
+    position: absolute;
+    color: #000000;
+    font-size: 30px;
+    font: weight 500;
+    text-decoration: none;
+}
+
+.bluestartext1 {
+    width: 325px;
+    height: 150px;
+    top: 4250px;
+    left: 130px;
+    position: absolute;
+    color: #000000;
+    font-size: 20px;
+    font: weight 400;
+}
+
+.bluestartext2 {
+    width: 325px;
+    height: 150px;
+    top: 4290px;
+    left: 115px;
+    position: absolute;
+    color: #000000;
+    font-size: 20px;
+    font: weight 400;
+}
+
+.bluestartext3 {
+    width: 325px;
+    height: 150px;
+    top: 4330px;
+    left: 130px;
+    position: absolute;
+    color: #000000;
+    font-size: 20px;
+    font: weight 400;
+}
+
+.bluestartext4 {
+    width: 325px;
+    height: 150px;
+    top: 4370px;
+    left: 195px;
+    position: absolute;
+    color: #000000;
+    font-size: 20px;
+    font: weight 400;
+}
+
+.yellowroundtext {
+    width: 340px;
+    height: 40px;
+    top: 4150px;
+    left: 555px;
+    position: absolute;
+    color: #000000;
+    font-size: 30px;
+    font: weight 500;
+    text-decoration: none;
+}
+
+.yellowstartext1 {
+    width: 325px;
+    height: 150px;
+    top: 4250px;
+    left: 565px;
+    position: absolute;
+    color: #000000;
+    font-size: 20px;
+    font: weight 400;
+}
+
+.yellowstartext2 {
+    width: 325px;
+    height: 150px;
+    top: 4290px;
+    left: 545px;
+    position: absolute;
+    color: #000000;
+    font-size: 20px;
+    font: weight 400;
+}
+
+.yellowstartext3 {
+    width: 375px;
+    height: 150px;
+    top: 4330px;
+    left: 525px;
+    position: absolute;
+    color: #000000;
+    font-size: 20px;
+    font: weight 400;
+}
+
+.yellowstartext4 {
+    width: 325px;
+    height: 150px;
+    top: 4370px;
+    left: 666px;
+    position: absolute;
+    color: #000000;
+    font-size: 20px;
+    font: weight 400;
+}
+
+.orangeroundtext {
+    width: 340px;
+    height: 40px;
+    top: 4150px;
+    left: 1030px;
+    position: absolute;
+    color: #000000;
+    font-size: 30px;
+    font: weight 500;
+    text-decoration: none;
+}
+
+.orangestartext1 {
+    width: 325px;
+    height: 150px;
+    top: 4250px;
+    left: 1030px;
+    position: absolute;
+    color: #000000;
+    font-size: 20px;
+    font: weight 400;
+}
+
+.orangestartext2 {
+    width: 325px;
+    height: 150px;
+    top: 4290px;
+    left: 1050px;
+    position: absolute;
+    color: #000000;
+    font-size: 20px;
+    font: weight 400;
+}
+
+.orangestartext3 {
+    width: 375px;
+    height: 150px;
+    top: 4330px;
+    left: 1010px;
+    position: absolute;
+    color: #000000;
+    font-size: 20px;
+    font: weight 400;
+}
+
+.orangestartext4 {
+    width: 325px;
+    height: 150px;
+    top: 4370px;
+    left: 1060px;
+    position: absolute;
+    color: #000000;
+    font-size: 20px;
+    font: weight 400;
+}
+
+/* section 4 tag end  */
+
+/* **************************************************************************************  */
+
+/* section 5 tag start  */
+
+.sendroundimage {
+    width: 80px;
+    height: 80px;
+    top: 4650px;
+    left: 1270px;
+    position: absolute;
+}
+
+.subscribetext1 {
+    width: 999px;
+    height: 160px;
+    top: 4750px;
+    left: 250px;
+    position: absolute;
+    color:#5E6282;
+    font-size: 35px;
+    font: weight 600;
+}
+.subscribetext2 {
+    width: 999px;
+    height: 160px;
+    top: 4830px;
+    left: 420px;
+    position: absolute;
+    color:#5E6282;
+    font-size: 35px;
+    font: weight 600;
+}
+.mailboximage{
+    width: 25px;
+    height: 25px;
+    top: 5050px;
+    left: 305px;
+    position: absolute; 
+    color: #39425D;
+    border-radius: 7px;
+    border: 1px;
+} 
+.mailtext1{
+    width: 135px;
+    height: 20px;
+    top: 5025px;
+    left: 355px;
+    position: absolute; 
+    color: #39425D;
+    font-size: 20px;
+    font-weight: 400;
+}
+.btnsubscribe{
+    width: 200px;
+    height: 50px;
+    top: 5015px;
+    left: 850px;
+    position: absolute; 
+    color: #FF7D68;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    border: 1px solid #FF946D;
+    background: #FF7D68;
+    color: #fff;
+    padding-top: 23px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* section 5 tag end  */
+
+/* **************************************************************************************  */
+
+/* footer part start  */
+
+.companytext{
+    width: 165px;
+    height: 40px;
+    top: 5300px;
+    left: 350px;
+    position: absolute; 
+    color: #080809;
+    font-size: 32px;
+    font-weight: 700;
+}
+.abouttext{
+    width: 75px;
+    height: 30px;
+    top: 5450px;
+    left: 350px;
+    position: absolute; 
+    color: #5E6282;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.careertext{
+    width: 100px;
+    height: 30px;
+    top: 5500px;
+    left: 350px;
+    position: absolute; 
+    color: #5E6282;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.mobiletext{
+    width: 80px;
+    height: 30px;
+    top: 5550px;
+    left: 350px;
+    position: absolute; 
+    color: #5E6282;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.contacttext{
+    width: 135px;
+    height: 40px;
+    top: 5300px;
+    left: 630px;
+    position: absolute; 
+    color: #080809;
+    font-size: 32px;
+    font-weight: 700;
+}
+.helptext{
+    width: 115px;
+    height: 30px;
+    top: 5450px;
+    left: 630px;
+    position: absolute; 
+    color: #5E6282;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.presstext{
+    width: 65px;
+    height: 30px;
+    top: 5500px;
+    left: 630px;
+    position: absolute; 
+    color: #5E6282;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.affilatestext{
+    width: 100px;
+    height: 30px;
+    top: 5550px;
+    left: 630px;
+    position: absolute; 
+    color: #5E6282;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+.moretext{
+    width: 85px;
+    height: 40px;
+    top: 5300px;
+    left: 900px;
+    position: absolute; 
+    color: #080809;
+    font-size: 32px;
+    font-weight: 700;
+}
+.airlinefeestext{
+    width: 125px;
+    height: 30px;
+    top: 5450px;
+    left: 900px;
+    position: absolute; 
+    color: #5E6282;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.airlinetext{
+    width: 75px;
+    height: 30px;
+    top: 5500px;
+    left: 900px;
+    position: absolute; 
+    color: #5E6282;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.lowfaretipstext{
+    width: 170px;
+    height: 30px;
+    top: 5550px;
+    left: 900px;
+    position: absolute; 
+    color: #5E6282;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.controltext{
+    width: 290px;
+    height: 66px;
+    top: 5435px;
+    left: 5px;
+    position: absolute; 
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 500;  
+}
+.endtext{
+    width: 320px;
+    height: 25px;
+    top: 5750px;
+    left: 555px;
+    position: absolute; 
+    color: #5E6282;
+    font-size: 18px;
+    font-weight: 500;   
+}
+.facebookimage{
+    width: 9px;
+    height: 16px;
+    top: 5400px;
+    left: 1100px;
+    position: absolute; 
+}
+.instagramimage{
+    width: 40px;
+    height: 40px;
+    top: 5388px;
+    left: 1150px;
+    position: absolute; 
+}
+.twitterimage{
+    width: 21px;
+    height: 18px;
+    top: 5400px;
+    left: 1230px;
+    position: absolute; 
+}
+.discovertext{
+    width: 230px;
+    height: 30px;
+    top: 5450px;
+    left: 1080px;
+    position: absolute; 
+    color: #5E6282;
+    font-size: 26px;
+    font-weight: 500;
+}
+.googleplayimage{
+    width: 143px;
+    height: 40px;
+    top: 5550px;
+    left: 1050px;
+    position: absolute;    
+}
+.blackyimage{
+    width: 133px;
+    height: 45px;
+    top: 5547px;
+    left: 1200px;
+    position: absolute; 
+    border-radius: 23px;   
+}
+.appleimage{
+    width: 17px;
+    height: 21px;
+    top: 5555px;
+    left: 1210px;
+    position: absolute; 
+}
+.availabletext{
+    width: 85px;
+    height: 15px;
+    top: 5540px;
+    left: 1230px;
+    position: absolute; 
+    color: white;
+    font-size: x-small;
+}
+.appletext{
+    width: 85px;
+    height: 15px;
+    top: 5555px;
+    left: 1230px;
+    position: absolute; 
+    color: white;
+    font-size:smaller;
+}
+
+/* footer part end  */
+
+/* **************************************************************************************  */
